@@ -9,14 +9,13 @@ body {
 
 header {
     background-color: rgb(166, 218, 218);
-    height: 100px;
     width: 90%;
     margin: auto;
 }
 
 .top-header {
-    height: 100%;
     width: 100%;
+    height: 100px;
     /* background-color: #fff; */
     display: flex;
     flex-direction: row;
@@ -65,4 +64,60 @@ header {
 
 .menu nav ul li a:hover {
     color: royalblue;
+}
+
+.btm-h {
+    width: 100%;
+    height: 400px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btm-h-text {
+    /* background-color: teal; */
+    width: 50%;
+}
+
+.btm-h-text h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.btm-h-text h2 span {
+    color: red;
+    font-style: italic;
+}
+
+.btm-h-text p {
+    font-style: italic;
+    margin-bottom: 100px;
+}
+
+.btm-h-text div a {
+    background-color: rgb(166, 218, 218);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.btm-h-text div a:hover {
+    background-color: gray;
+    color: #fff;
+    font-style: italic;
+}
+
+.btm-h-img {
+    /* background-color: red; */
+    height: 80%;
+    width: 30%;
+}
+
+.btm-h-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
 }
